@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Hello</h1>
-    <form action="/create_task_factorial">
+    <form action="{{ url_for('create_task_factorial') }}">
         <label for="n">Введите число для вычисления факториала:</label>
         <input type="text" name="n" id="n">
         <input type="submit" value="Вычислить">
